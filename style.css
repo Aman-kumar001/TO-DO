@@ -1,0 +1,109 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+#top{
+    width:100%;
+    height:300px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+#top span{
+    position: relative;
+    top:14%;
+    left:34.5%;
+    color:white;
+    width:60%;
+    font-size: 60px;
+    font-weight: bolder;
+}
+#btn{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255,255,255,0);
+    position:relative;
+    left:50%;
+    top:16%;
+    border:none;
+}
+.night{
+    background-image: url("images/icon-sun.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bottom{
+    height:300px;
+}
+.list{
+    border-radius: 20px;
+    background-color:rgba(255,255,255,0.3);
+    height:auto;
+    width:400px;
+    margin:0 auto;
+    backdrop-filter: blur(6px);
+    position: relative;
+    top:-50%;
+    text-align: center;
+}
+#task{
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 55%;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border:none;
+}
+#go{
+    width:9%;
+    height: 2.2rem;
+    margin-top: 2.3%;
+    margin-left: -15%;
+    background: gray;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    color:white;
+}
+#num{
+    width:8%;
+    height:2rem;
+    margin-right: -8%;
+    border-radius: 50%;
+    border:none;
+    position: relative;
+    top:-2px;
+    text-align: center;
+    font-size: 1.5rem.;
+}
+hr{
+    width:80%;
+    color:gray;
+}
+ul{
+    padding-left: 0;
+}
+.ul li{
+    list-style-type:none;
+    margin-bottom:2px;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 20px;
+}
+input[type=text]{
+    font-family: 'Indie Flower', cursive;
+}
+.day{
+    background-image: url("images/icon-moon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dark{
+    background-image: url(images/dark.jpg);
+}
+.light{
+    background-image: url(images/light.jpg);
+}
