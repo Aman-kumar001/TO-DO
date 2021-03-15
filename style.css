@@ -28,7 +28,7 @@ body{
     border:none;
 }
 .night{
-    background-image: url("images/icon-sun.svg");
+    background-image: url("icon-sun.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -97,13 +97,13 @@ input[type=text]{
     font-family: 'Indie Flower', cursive;
 }
 .day{
-    background-image: url("images/icon-moon.svg");
+    background-image: url("icon-moon.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
 .dark{
-    background-image: url(images/dark.jpg);
+    background-image: url(dark.jpg);
 }
 .light{
-    background-image: url(images/light.jpg);
+    background-image: url(light.jpg);
 }
